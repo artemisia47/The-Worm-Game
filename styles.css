@@ -1,0 +1,55 @@
+/* Style the refresh button */
+#refresh-btn {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #34be14;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block; /* Make sure the button is displayed properly */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #refresh-btn:hover {
+    background-color: #b3664a;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #b4b3ad;
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #5a2920;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #gameCanvas {
+    display: block;
+    margin: 20px auto;
+    border: 10px solid rgb(68, 160, 29);
+    background-color: #81a349;
+  }
+  
+  #game-over-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(67, 1, 1);
+    display: none;
+    text-align: center;
+  }
+  
+   #game-message {
+
+   }
